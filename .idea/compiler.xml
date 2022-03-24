@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="HomeWork01-TheTaskOfTheNumberOfEmployeesOnTheProject" />
         <module name="HomeWork01-SarumanAndLannisters" />
+        <module name="HomeWork01-MortgageDownPayment" />
         <module name="HomeWork01-TheAgeOfTheUniverseVsTheAgeOfHumanity" />
         <module name="HomeWork01-AGlassThatsHalfFull" />
         <module name="HomeWork01-PinokioAndApple" />
