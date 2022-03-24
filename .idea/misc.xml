@@ -10,6 +10,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/HomeWor01-Test/pom.xml" />
+        <option value="$PROJECT_DIR$/TheAgeOfTheUniverseVsTheAgeOfHumanity/pom.xml" />
       </set>
     </option>
   </component>

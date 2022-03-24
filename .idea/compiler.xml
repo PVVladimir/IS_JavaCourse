@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="HomeWork01-TheTaskOfTheNumberOfEmployeesOnTheProject" />
         <module name="HomeWork01-SarumanAndLannisters" />
+        <module name="HomeWork01-TheAgeOfTheUniverseVsTheAgeOfHumanity" />
         <module name="HomeWork01-AGlassThatsHalfFull" />
         <module name="HomeWork01-PinokioAndApple" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="HomeWor01-Test" target="17" />
+      <module name="TheAgeOfTheUniverseVsTheAgeOfHumanity" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
