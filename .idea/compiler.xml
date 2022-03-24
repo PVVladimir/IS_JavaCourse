@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="HomeWork01-TheTaskOfTheNumberOfEmployeesOnTheProject" />
         <module name="HomeWork01-SarumanAndLannisters" />
+        <module name="HomeWork01-AGlassThatsHalfFull" />
+        <module name="HomeWork01-TheTaskOfTheNumberOfEmployeesOnTheProject" />
+        <module name="HomeWork01-TravelTime" />
         <module name="HomeWork01-MortgageDownPayment" />
         <module name="HomeWork01-TheAgeOfTheUniverseVsTheAgeOfHumanity" />
-        <module name="HomeWork01-AGlassThatsHalfFull" />
         <module name="HomeWork01-PinokioAndApple" />
       </profile>
     </annotationProcessing>

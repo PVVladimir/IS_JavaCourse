@@ -15,6 +15,7 @@
         <module>HomeWork01-TheTaskOfTheNumberOfEmployeesOnTheProject</module>
         <module>HomeWork01-TheAgeOfTheUniverseVsTheAgeOfHumanity</module>
         <module>HomeWork01-MortgageDownPayment</module>
+        <module>HomeWork01-TravelTime</module>
     </modules>
 
     <properties>
