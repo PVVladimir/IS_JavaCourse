@@ -16,6 +16,7 @@
         <module>HomeWork01-TheAgeOfTheUniverseVsTheAgeOfHumanity</module>
         <module>HomeWork01-MortgageDownPayment</module>
         <module>HomeWork01-TravelTime</module>
+        <module>HomeWork01-DiscountsOnShirts</module>
     </modules>
 
     <properties>
