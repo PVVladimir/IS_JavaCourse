@@ -10,13 +10,13 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>HomeWork01-AGlassThatsHalfFull</module>
+        <module>HomeWork01-DiscountsOnShirts</module>
+        <module>HomeWork01-MortgageDownPayment</module>
         <module>HomeWork01-PinokioAndApple</module>
         <module>HomeWork01-SarumanAndLannisters</module>
         <module>HomeWork01-TheTaskOfTheNumberOfEmployeesOnTheProject</module>
         <module>HomeWork01-TheAgeOfTheUniverseVsTheAgeOfHumanity</module>
-        <module>HomeWork01-MortgageDownPayment</module>
         <module>HomeWork01-TravelTime</module>
-        <module>HomeWork01-DiscountsOnShirts</module>
     </modules>
 
     <properties>
