@@ -13,16 +13,16 @@ public class DiscountsOnShirts {
         float discountPriceOfOneShirt = priceOfOneShirt * (100 - discountPercentage) / 100;
         float amountOfMoneySaved = totalPriceOfSelectedShirtsWithoutDiscount + totalPriceOfShirtsWithoutDiscountMustBuy - discountPriceOfAllShirts;
         float theNumberOfShirtsReceivedForFree = amountOfMoneySaved / discountPriceOfOneShirt;
-        System.out.printf(" %d", priceOfOneShirt);
-        System.out.printf(" %d", numberOfSelectedShirts);
-        System.out.printf(" %d", numberOfShirtsToReceiveADiscount);
-        System.out.printf(" %d", numberOfShirtsAddForDiscount);
-        System.out.printf(" %d", totalPriceOfSelectedShirtsWithoutDiscount);
-        System.out.printf(" %d", totalPriceOfShirtsWithoutDiscountMustBuy);
-        System.out.printf(" %.2f", discountPercentage);
-        System.out.printf(" %.2f", discountPriceOfAllShirts);
-        System.out.printf(" %.2f", discountPriceOfOneShirt);
-        System.out.printf(" %.2f", amountOfMoneySaved);
-        System.out.printf(" %.2f", theNumberOfShirtsReceivedForFree);
+        System.out.printf("Цена одной рубашки без скидки %d у.е.\n", priceOfOneShirt);
+        System.out.printf("Количество уже выбранных рубашек %d шт\n", numberOfSelectedShirts);
+        System.out.printf("Количество рубашек, которые надо купить, чтобы получить скидку %d шт\n", numberOfShirtsToReceiveADiscount);
+        System.out.printf("Количество рубашек, которые надо добавить к купленным, чтобы получить скидку %d шт\n", numberOfShirtsAddForDiscount);
+        System.out.printf("Общая цена уже выбранных рубашек без скидки %d у.е.\n", totalPriceOfSelectedShirtsWithoutDiscount);
+        System.out.printf("Общая цена рубашек (без скидки), которые надо докупить, чтобы получить скидку %d у.е.\n", totalPriceOfShirtsWithoutDiscountMustBuy);
+        System.out.printf("Процент скидки %.2f%%\n", discountPercentage);
+        System.out.printf("Цена всех рубашек со скидкой %.2f у.е.\n", discountPriceOfAllShirts);
+        System.out.printf("Цена одной рубашки со скидкой %.2f у.е.\n", discountPriceOfOneShirt);
+        System.out.printf("Количество сэкономленных денег, если рубашки куплены со скидкой %.2f шт\n", amountOfMoneySaved);
+        System.out.printf("Количество рубашек, которые из-за скидки считай получены на халяву %.2f шт\n", theNumberOfShirtsReceivedForFree);
     }
 }
