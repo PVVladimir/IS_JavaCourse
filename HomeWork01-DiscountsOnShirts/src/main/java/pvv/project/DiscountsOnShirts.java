@@ -9,7 +9,7 @@ public class DiscountsOnShirts {
         int totalPriceOfSelectedShirtsWithoutDiscount = numberOfSelectedShirts * priceOfOneShirt;
         int totalPriceOfShirtsWithoutDiscountMustBuy = numberOfShirtsAddForDiscount * priceOfOneShirt;
         float discountPercentage = 7.5F;
-        float discountPriceOfAllShirts = (totalPriceOfSelectedShirtsWithoutDiscount + totalPriceOfShirtsWithoutDiscountMustBuy) * (100 - discountPercentage) /100;
+        float discountPriceOfAllShirts = (totalPriceOfSelectedShirtsWithoutDiscount + totalPriceOfShirtsWithoutDiscountMustBuy) * (100 - discountPercentage) / 100;
         float discountPriceOfOneShirt = priceOfOneShirt * (100 - discountPercentage) / 100;
         float amountOfMoneySaved = totalPriceOfSelectedShirtsWithoutDiscount + totalPriceOfShirtsWithoutDiscountMustBuy - discountPriceOfAllShirts;
         float theNumberOfShirtsReceivedForFree = amountOfMoneySaved / discountPriceOfOneShirt;
