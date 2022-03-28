@@ -21,6 +21,8 @@
         <module>HomeWork02-02-TimesOfDay</module>
         <module>HomeWork02-03-TimeOfDayWithErrorNotifications</module>
         <module>HomeWork02-04-Greetings</module>
+        <module>HomeWork02-05-OfferSelection</module>
+        <module>HomeWork02-06-AttractionControl</module>
     </modules>
 
     <properties>

@@ -6,16 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="HomeWork01-DiscountsOnShirts" />
+        <module name="HomeWork01-TheTaskOfTheNumberOfEmployeesOnTheProject" />
+        <module name="HomeWork02-05-OfferSelection" />
+        <module name="HomeWork01-TravelTime" />
+        <module name="HomeWork02-03-TimeOfDayWithErrorNotifications" />
         <module name="HomeWork02-02-TimesOfDay" />
         <module name="HomeWork01-SarumanAndLannisters" />
-        <module name="HomeWork01-DiscountsOnShirts" />
+        <module name="HomeWork02-06-AttractionControl" />
         <module name="HomeWork01-AGlassThatsHalfFull" />
         <module name="HomeWork02-04-Greetings" />
-        <module name="HomeWork01-TheTaskOfTheNumberOfEmployeesOnTheProject" />
-        <module name="HomeWork01-TravelTime" />
         <module name="HomeWork01-MortgageDownPayment" />
         <module name="HomeWork02-01-IdealWeight" />
-        <module name="HomeWork02-03-TimeOfDayWithErrorNotifications" />
         <module name="HomeWork01-TheAgeOfTheUniverseVsTheAgeOfHumanity" />
         <module name="HomeWork01-PinokioAndApple" />
       </profile>
