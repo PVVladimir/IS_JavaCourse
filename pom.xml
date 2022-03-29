@@ -24,6 +24,7 @@
         <module>HomeWork02-05-OfferSelection</module>
         <module>HomeWork02-06-AttractionControl</module>
         <module>HomeWork02-07-WeightLossProgram</module>
+        <module>HomeWork02-08-FightBetweenJediAndSith</module>
     </modules>
 
     <properties>
