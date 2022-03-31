@@ -17,6 +17,14 @@
         <module>HomeWork01-TheTaskOfTheNumberOfEmployeesOnTheProject</module>
         <module>HomeWork01-TheAgeOfTheUniverseVsTheAgeOfHumanity</module>
         <module>HomeWork01-TravelTime</module>
+        <module>HomeWork02-01-IdealWeight</module>
+        <module>HomeWork02-02-TimesOfDay</module>
+        <module>HomeWork02-03-TimeOfDayWithErrorNotifications</module>
+        <module>HomeWork02-04-Greetings</module>
+        <module>HomeWork02-05-OfferSelection</module>
+        <module>HomeWork02-06-AttractionControl</module>
+        <module>HomeWork02-07-WeightLossProgram</module>
+        <module>HomeWork02-08-FightBetweenJediAndSith</module>
     </modules>
 
     <properties>
