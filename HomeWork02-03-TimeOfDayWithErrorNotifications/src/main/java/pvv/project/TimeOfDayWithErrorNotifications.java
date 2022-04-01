@@ -7,11 +7,11 @@ public class TimeOfDayWithErrorNotifications {
             System.out.println("Время суток нужно ввести правильно");
         } else if (curHour < 5) {
             System.out.println("Ночь");
-        } else if (curHour < 11){
+        } else if (curHour < 11) {
             System.out.println("Утро");
-        } else if (curHour < 17){
+        } else if (curHour < 17) {
             System.out.println("День");
-        } else if (curHour > 23){
+        } else if (curHour > 23) {
             System.out.println("Вам следует вернуться с другой планеты на Землю");
         } else {
             System.out.println("Вечер");

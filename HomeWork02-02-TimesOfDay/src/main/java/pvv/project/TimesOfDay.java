@@ -5,9 +5,9 @@ public class TimesOfDay {
         final int curHour = 11;
         if (curHour < 5) {
             System.out.println("Ночь");
-        } else if (curHour < 11){
+        } else if (curHour < 11) {
             System.out.println("Утро");
-        } else if (curHour < 17){
+        } else if (curHour < 17) {
             System.out.println("День");
         } else {
             System.out.println("Вечер");
