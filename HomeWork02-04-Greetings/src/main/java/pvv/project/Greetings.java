@@ -3,9 +3,10 @@ package pvv.project;
 public class Greetings {
     public static void main(String[] args) {
         final int curHour = 11;
-        final int curWeakDay = 4;
+        final int curDay = 4;
+        final boolean weakDay = curDay < 6;
 
-        if (curWeakDay < 6) {
+        if (weakDay) {
             if (curHour < 8) {
                 System.out.println("Доброе утро!");
             } else if (curHour < 11) {
