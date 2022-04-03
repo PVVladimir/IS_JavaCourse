@@ -6,7 +6,7 @@ public class FightBetweenJediAndSith {
         final String nameJedi = "Оби Ван";
         final int heightSith = 12;
         final String nameSith = "Паладин";
-        if (nameSith == "Паладин" || heightJedi == heightSith && !(nameJedi == "Оби Ван" && nameSith == "Дарт Мол")) {
+        if (nameSith.equals("Паладин") || heightJedi == heightSith && !(nameJedi.equals("Оби Ван") && nameSith.equals("Дарт Мол"))) {
             System.out.println("Ситх победит!");
         } else {
             System.out.println("Джедай победит!");
