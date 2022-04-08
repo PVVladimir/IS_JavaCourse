@@ -8,7 +8,8 @@ public class StocksOfBuckwheat {
         // int stocksOfBuckwheat = 100;
         int stocksOfBuckwheat = numberOfDaysToSurvive * eatPerMonthKilogramAvg;
         int buckwheatStorageCosts = stocksOfBuckwheat * storageCostMonthKilogram;
-        for (; stocksOfBuckwheat > 0; stocksOfBuckwheat -= eatPerMonthKilogramAvg) {
+        for (; stocksOfBuckwheat > 0; ) {
+            stocksOfBuckwheat -= eatPerMonthKilogramAvg;
             buckwheatStorageCosts += stocksOfBuckwheat * storageCostMonthKilogram;
         }
         System.out.println("Василий потратит " + buckwheatStorageCosts + " руб. на хранение гречки");
