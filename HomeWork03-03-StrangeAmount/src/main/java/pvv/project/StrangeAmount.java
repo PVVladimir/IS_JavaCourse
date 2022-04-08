@@ -12,7 +12,7 @@ public class StrangeAmount {
             }
             plus = !plus;
         }
-        System.out.println("sum = " + sum1);
+        System.out.println("Вариант 1: sum = " + sum1);
 
         int multiple = 1;
         int sum2 = 0;
@@ -20,13 +20,13 @@ public class StrangeAmount {
             sum2 += i * multiple;
             multiple = -multiple;
         }
-        System.out.println("sum = " + sum2);
+        System.out.println("Вариант 2: sum = " + sum2);
 
         int sum3 = 0;
         for (int i = 1; i < 100; i = i + 2) {
             sum3 += i - (i + 1);
         }
-        System.out.println("sum = " + sum3);
+        System.out.println("Вариант 3: sum = " + sum3);
 
         int sum4 = 0;
         for (int i = 1; i <= 100; i++) {
@@ -36,7 +36,7 @@ public class StrangeAmount {
                 sum4 -= i;
             }
         }
-        System.out.println("sum = " + sum4);
+        System.out.println("Вариант 4: sum = " + sum4);
 
         int sum5plus = 0;
         int sum5minus = 0;
@@ -44,15 +44,16 @@ public class StrangeAmount {
             sum5plus += i;
             sum5minus -= i + 1;
         }
-        System.out.println("sum = " + (sum5plus + sum5minus));
+        System.out.println("Вариант 5: sum = " + (sum5plus + sum5minus));
 
-        int a1 = 1;
-        int a50 = 99;
-        int b1 = 2;
-        int b50 = 100;
-        int n = 50;
-        int sum6plus = (a1 + a50) * n / 2;
-        int sum6minus = (b1 + b50) * n / 2;
-        System.out.println("sum = " + (sum6plus - sum6minus));
+        final int a1 = 1;
+        final int a50 = 99;
+        final int b1 = 2;
+        final int b50 = 100;
+        final int n = 50;
+
+        final int sum6plus = (a1 + a50) * n / 2;
+        final int sum6minus = (b1 + b50) * n / 2;
+        System.out.println("НЕ Вариант: sum = " + (sum6plus - sum6minus));
     }
 }

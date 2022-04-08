@@ -28,6 +28,9 @@
         <module>HomeWork03-01-SimpleCycle</module>
         <module>HomeWork03-02-SimpleSum</module>
         <module>HomeWork03-03-StrangeAmount</module>
+        <module>HomeWork03-04-FamousFizzBuzz</module>
+        <module>HomeWork03-05-PrimeNumbers</module>
+        <module>HomeWork03-06-StocksOfBuckwheat</module>
     </modules>
 
     <properties>
